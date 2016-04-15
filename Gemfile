@@ -41,6 +41,7 @@ gem 'bootstrap-will_paginate', '0.0.10'
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
