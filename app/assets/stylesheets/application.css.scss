@@ -99,16 +99,16 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  // border-top: 1px solid #eaeaea;
   color: #777;
 }
 
 footer a {
-  color: #555;
+  color: white;
 }
 
 footer a:hover {
-  color: #222;
+  color: #555;
 }
 
 footer small {
@@ -299,4 +299,11 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid #eaeaea;
 }
