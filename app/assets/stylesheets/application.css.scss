@@ -31,6 +31,8 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 60px;
   background-size: 100% auto;
+  background-image: url("/assets/tweeter.jpg");
+  background-repeat: no-repeat;
 }
 
 section {
@@ -56,10 +58,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
+  font-size: 34px;
+  // letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: white;
+  font-family: monod_brun_regular, futura-pt;
+  line-height: 40px;
+  word-spacing: -5px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -80,7 +87,7 @@ p {
 
 #logo {
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
@@ -306,4 +313,15 @@ span.picture {
   background: transparent;
   border-color: transparent;
   border-bottom: 1px solid #eaeaea;
+}
+
+a.btn {
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: transparent;
+  border-color: white;
+}
+.btn {
+  background-color: transparent;
+  border-color: white;
 }
