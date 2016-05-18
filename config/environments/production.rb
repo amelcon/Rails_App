@@ -77,6 +77,10 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  # Use to load background imagw in heroku
+  config.serve_static_assets = true
+  config.assets.compile = true
+
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = 'tweeterdemo.herokuapp.com'
