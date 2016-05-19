@@ -31,7 +31,10 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 60px;
   background-size: 100% auto;
-  background-color: blue;
+  .navbar {
+    background-color: black;
+    opacity: 0.6;
+  }
 }
 
 body.home {
@@ -71,7 +74,7 @@ h1 {
   color: white;
   font-family: monod_brun_regular, futura-pt;
   line-height: 40px;
-  word-spacing: -5px;
+  // word-spacing: -5px;
   text-transform: uppercase;
 }
 
@@ -355,4 +358,14 @@ div.holder-about {
   opacity: 0.6;
   padding-left: 10px;
   margin-right: 700px;
+}
+
+// div.navbar-logged {
+//    ul li a {
+//      color: black !important;
+//    }
+// }
+
+ul.dropdown-menu li a {
+  color: black !important;
 }
