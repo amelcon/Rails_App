@@ -1,4 +1,4 @@
-<% if logged_in? %>
+<body><% if logged_in? %>
   <div class="row">
     <aside class="col-md-4">
       <section class="user_info">
@@ -16,15 +16,18 @@
       <%= render 'shared/feed' %>
     </div>
   </div>
+</body>
 <% else %>
 <!-- <div class="center jumbotron">
   <h1>Welcome to Tweeter</h1>
 
   <h2>
   </h2> -->
+<body class="home" background="/assets/tweeter.png">
 <h1>READ.WRITE.CONNECT.</h1>
 
   <%= link_to "SIGN UP", signup_path, class: "btn btn-lg btn-primary center-block" %>
 </div>
+</body>
 
 <% end %>

@@ -31,6 +31,12 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 60px;
   background-size: 100% auto;
+  background-color: blue;
+}
+
+body.home {
+  padding-top: 60px;
+  background-size: 100% auto;
   background-image: url("/assets/tweeter.png");
   background-repeat: no-repeat;
 }
@@ -328,4 +334,12 @@ a.btn {
 .btn {
   background-color: transparent;
   border-color: white;
+}
+
+div.holder {
+
+  background-color: black;
+  opacity: 0.6;
+  margin-left: 325px;
+  margin-right: 325px;
 }
