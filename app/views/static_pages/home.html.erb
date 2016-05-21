@@ -1,5 +1,5 @@
 <body><% if logged_in? %>
-  <div class="row">
+  <div id="test" class="row">
     <aside class="col-md-4">
       <section class="user_info">
         <%= render 'shared/user_info' %>
@@ -23,10 +23,16 @@
 
   <h2>
   </h2> -->
+<script>
+  $(document).ready(function(){
+      $("#div1").click(function(){
+          $("#div1").fadeOut("1000");
+      });
+  });
+</script>
 <body class="home" background="/assets/tweeter.png">
 <h1>READ.WRITE.CONNECT.</h1>
-
-  <%= link_to "SIGN UP", signup_path, class: "btn btn-lg btn-primary center-block" %>
+  <div id="div1"> <%= link_to "SIGN UP", signup_path, class: "btn btn-lg btn-primary center-block" %> </div>
 </div>
 </body>
 
