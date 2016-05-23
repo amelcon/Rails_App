@@ -334,6 +334,7 @@ a.btn {
   background-color: transparent;
   border-color: white;
 }
+
 .btn {
   background-color: transparent;
   border-color: white;
@@ -386,4 +387,8 @@ div.users-index {
 
 ul.dropdown-menu li a {
   color: black !important;
+}
+
+.navbar-right a:hover  {
+  background-color: #337ab7 !important;
 }
